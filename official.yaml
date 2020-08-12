@@ -23,10 +23,10 @@ variables:
 data:
   ruby:
     imagestreams:
-      - location: https://raw.githubusercontent.com/sclorg/s2i-ruby-container/master/imagestreams/ruby-rhel7.json
+      - location: https://raw.githubusercontent.com/multi-arch/s2i-ruby-container/master/imagestreams/ruby-rhel.json
         docs: https://github.com/sclorg/s2i-ruby-container/blob/master/README.md
         regex: ruby
-        suffix: rhel7
+        suffix: rhel
         tags:
           - ocp
           - online-starter
@@ -56,10 +56,10 @@ data:
           - arch_x86_64
   python:
     imagestreams:
-      - location: https://raw.githubusercontent.com/sclorg/s2i-python-container/master/imagestreams/python-rhel7.json
+      - location: https://raw.githubusercontent.com/multi-arch/s2i-python-container/master/imagestreams/python-rhel.json
         docs: https://github.com/sclorg/s2i-python-container/blob/master/README.md
         regex: python
-        suffix: rhel7
+        suffix: rhel
         tags:
           - ocp
           - online-starter
@@ -125,10 +125,10 @@ data:
           - arch_x86_64
   perl:
     imagestreams:
-      - location: https://raw.githubusercontent.com/sclorg/s2i-perl-container/master/imagestreams/perl-rhel7.json
+      - location: https://raw.githubusercontent.com/multi-arch/s2i-perl-container/master/imagestreams/perl-rhel.json
         docs: https://github.com/sclorg/s2i-perl-container/blob/master/README.md
         regex: perl
-        suffix: rhel7
+        suffix: rhel
         tags:
           - ocp
           - online-starter
@@ -160,10 +160,10 @@ data:
           - arch_x86_64
   php:
     imagestreams:
-      - location: https://raw.githubusercontent.com/sclorg/s2i-php-container/master/imagestreams/php-rhel7.json
+      - location: https://raw.githubusercontent.com/multi-arch/s2i-php-container/master/imagestreams/php-rhel.json
         docs: https://github.com/sclorg/s2i-php-container/blob/master/README.md
         regex: php
-        suffix: rhel7
+        suffix: rhel
         tags:
           - ocp
           - online-starter
@@ -278,10 +278,10 @@ data:
           - arch_x86_64
   httpd:
     imagestreams:
-      - location: https://raw.githubusercontent.com/sclorg/httpd-container/master/imagestreams/httpd-rhel7.json
+      - location: https://raw.githubusercontent.com/multi-arch/httpd-container/master/imagestreams/httpd-rhel.json
         docs: https://github.com/sclorg/httpd-container/blob/master/README.md
         regex: httpd
-        suffix: rhel7
+        suffix: rhel
         tags:
           - ocp
           - online-starter
@@ -321,10 +321,10 @@ data:
           - arch_s390x
           - arch_x86_64
     imagestreams:
-      - location: https://raw.githubusercontent.com/sclorg/mariadb-container/master/imagestreams/mariadb-rhel7.json
+      - location: https://raw.githubusercontent.com/multi-arch/mariadb-container/master/imagestreams/mariadb-rhel.json
         docs: https://github.com/sclorg/mariadb-container/blob/master/README.md
         regex: mariadb
-        suffix: rhel7
+        suffix: rhel
         tags:
           - ocp
           - online-starter
@@ -396,10 +396,10 @@ data:
           - arch_s390x
           - arch_x86_64
     imagestreams:
-      - location: https://raw.githubusercontent.com/sclorg/mysql-container/master/imagestreams/mysql-rhel7.json
+      - location: https://raw.githubusercontent.com/multi-arch/mysql-container/master/imagestreams/mysql-rhel.json
         docs: https://github.com/sclorg/mysql-container/blob/master/README.md
         regex: mysql
-        suffix: rhel7
+        suffix: rhel
         tags:
           - ocp
           - online-starter
@@ -409,10 +409,10 @@ data:
           - arch_x86_64
   nginx:
     imagestreams:
-      - location: https://raw.githubusercontent.com/sclorg/nginx-container/master/imagestreams/nginx-rhel7.json
+      - location: https://raw.githubusercontent.com/multi-arch/nginx-container/master/imagestreams/nginx-rhel.json
         docs: https://github.com/sclorg/nginx-container/blob/master/README.md
         regex: nginx
-        suffix: rhel7
+        suffix: rhel
         tags:
           - ocp
           - online-starter
@@ -452,25 +452,25 @@ data:
           - arch_s390x
           - arch_x86_64
     imagestreams:
-      - location: https://raw.githubusercontent.com/sclorg/postgresql-container/master/imagestreams/postgresql-rhel7.json
+      - location: https://raw.githubusercontent.com/multi-arch/postgresql-container/master/imagestreams/postgresql-rhel.json
         docs: https://github.com/sclorg/postgresql-container/blob/master/README.md
         regex: postgresql
-        suffix: rhel7
+        suffix: rhel
         tags:
           - ocp
           - online-starter
           - online-professional
-      - location: https://raw.githubusercontent.com/sclorg/postgresql-container/master/imagestreams/postgresql-rhel7-ppc64le.json
+      - location: https://raw.githubusercontent.com/multi-arch/postgresql-container/master/imagestreams/postgresql-rhel-ppc64le.json
         docs: https://github.com/sclorg/postgresql-container/blob/master/README.md
         regex: postgresql
-        suffix: rhel7-ppc64le
+        suffix: rhel-ppc64le
         tags:
           - ocp
           - arch_ppc64le
-      - location: https://raw.githubusercontent.com/sclorg/postgresql-container/master/imagestreams/postgresql-rhel7-s390x.json
+      - location: https://raw.githubusercontent.com/multi-arch/postgresql-container/master/imagestreams/postgresql-rhel-s390x.json
         docs: https://github.com/sclorg/postgresql-container/blob/master/README.md
         regex: postgresql
-        suffix: rhel7-s390x
+        suffix: rhel-s390x
         tags:
           - ocp
           - arch_s390x
@@ -497,10 +497,10 @@ data:
           - arch_s390x
           - arch_x86_64
     imagestreams:
-      - location: https://raw.githubusercontent.com/sclorg/redis-container/master/imagestreams/redis-rhel7.json
+      - location: https://raw.githubusercontent.com/multi-arch/redis-container/master/imagestreams/redis-rhel.json
         docs: https://github.com/sclorg/redis-container/blob/master/README.md
         regex: redis
-        suffix: rhel7
+        suffix: rhel
         tags:
           - ocp
           - online-starter
@@ -1392,10 +1392,10 @@ data:
           - online-professional
   golang:
     imagestreams:
-      - location: https://raw.githubusercontent.com/sclorg/golang-container/master/imagestreams/golang-rhel7.json
+      - location: https://raw.githubusercontent.com/multi-arch/golang-container/master/imagestreams/golang-rhel.json
         docs: https://github.com/sclorg/golang-container/blob/master/README.md
         regex: golang
-        suffix: rhel7
+        suffix: rhel
         tags:
           - ocp
           - online-starter

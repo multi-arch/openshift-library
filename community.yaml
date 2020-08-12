@@ -57,18 +57,18 @@ data:
       docs: https://github.com/infinispan/infinispan-openshift-templates/blob/master/README.asciidoc
   ruby:
     imagestreams:
-      - location: https://raw.githubusercontent.com/sclorg/s2i-ruby-container/master/imagestreams/ruby-centos7.json
+      - location: https://raw.githubusercontent.com/multi-arch/s2i-ruby-container/master/imagestreams/ruby-centos.json
         docs: https://github.com/sclorg/s2i-ruby-container/blob/master/README.md
         regex: ruby
-        suffix: centos7
+        suffix: centos
         tags:
           - okd
   python:
     imagestreams:
-      - location: https://raw.githubusercontent.com/sclorg/s2i-python-container/master/imagestreams/python-centos7.json
+      - location: https://raw.githubusercontent.com/multi-arch/s2i-python-container/master/imagestreams/python-centos.json
         docs: https://github.com/sclorg/s2i-python-container/blob/master/README.md
         regex: python
-        suffix: centos7
+        suffix: centos
         tags:
           - okd
   nodejs:
@@ -81,26 +81,26 @@ data:
           - okd
   perl:
     imagestreams:
-      - location: https://raw.githubusercontent.com/sclorg/s2i-perl-container/master/imagestreams/perl-centos7.json
+      - location: https://raw.githubusercontent.com/multi-arch/s2i-perl-container/master/imagestreams/perl-centos.json
         docs: https://github.com/sclorg/s2i-perl-container/blob/master/README.md
         regex: perl
-        suffix: centos7
+        suffix: centos
         tags:
           - okd
   php:
     imagestreams:
-      - location: https://raw.githubusercontent.com/sclorg/s2i-php-container/master/imagestreams/php-centos7.json
+      - location: https://raw.githubusercontent.com/multi-arch/s2i-php-container/master/imagestreams/php-centos.json
         docs: https://github.com/sclorg/s2i-php-container/blob/master/README.md
         regex: php
-        suffix: centos7
+        suffix: centos
         tags:
           - okd
   httpd:
     imagestreams:
-      - location: https://raw.githubusercontent.com/sclorg/httpd-container/master/imagestreams/httpd-centos7.json
+      - location: https://raw.githubusercontent.com/multi-arch/httpd-container/master/imagestreams/httpd-centos.json
         docs: https://github.com/sclorg/httpd-container/blob/master/README.md
         regex: httpd
-        suffix: centos7
+        suffix: centos
         tags:
           - okd
   java:
@@ -146,10 +146,10 @@ data:
           - okd
   mariadb:
     imagestreams:
-      - location: https://raw.githubusercontent.com/sclorg/mariadb-container/master/imagestreams/mariadb-centos7.json
+      - location: https://raw.githubusercontent.com/multi-arch/mariadb-container/master/imagestreams/mariadb-centos.json
         docs: https://github.com/sclorg/mariadb-container/blob/master/README.md
         regex: mariadb
-        suffix: centos7
+        suffix: centos
         tags:
           - okd
   mongodb:
@@ -162,34 +162,34 @@ data:
           - okd
   mysql:
     imagestreams:
-      - location: https://raw.githubusercontent.com/sclorg/mysql-container/master/imagestreams/mysql-centos7.json
+      - location: https://raw.githubusercontent.com/multi-arch/mysql-container/master/imagestreams/mysql-centos.json
         docs: https://github.com/sclorg/mysql-container/blob/master/README.md
         regex: mysql
-        suffix: centos7
+        suffix: centos
         tags:
           - okd
   nginx:
     imagestreams:
-      - location: https://raw.githubusercontent.com/sclorg/nginx-container/master/imagestreams/nginx-centos7.json
+      - location: https://raw.githubusercontent.com/multi-arch/nginx-container/master/imagestreams/nginx-centos.json
         docs: https://github.com/sclorg/nginx-container/blob/master/README.md
         regex: nginx
-        suffix: centos7
+        suffix: centos
         tags:
           - okd
   postgresql:
     imagestreams:
-      - location: https://raw.githubusercontent.com/sclorg/postgresql-container/master/imagestreams/postgresql-centos7.json
+      - location: https://raw.githubusercontent.com/multi-arch/postgresql-container/master/imagestreams/postgresql-centos.json
         docs: https://github.com/sclorg/postgresql-container/blob/master/README.md
         regex: postgresql
-        suffix: centos7
+        suffix: centos
         tags:
           - okd
   redis:
     imagestreams:
-      - location: https://raw.githubusercontent.com/sclorg/redis-container/master/imagestreams/redis-centos7.json
+      - location: https://raw.githubusercontent.com/multi-arch/redis-container/master/imagestreams/redis-centos.json
         docs: https://github.com/sclorg/redis-container/blob/master/README.md
         regex: redis
-        suffix: centos7
+        suffix: centos
         tags:
           - okd
   dotnet:
@@ -201,9 +201,9 @@ data:
           - okd
   golang:
     imagestreams:
-      - location: https://raw.githubusercontent.com/sclorg/golang-container/master/imagestreams/golang-centos7.json
+      - location: https://raw.githubusercontent.com/multi-arch/golang-container/master/imagestreams/golang-centos.json
         docs: https://github.com/sclorg/golang-container/blob/master/README.md
-        suffix: centos7
+        suffix: centos
         tags:
           - okd
   openliberty:
