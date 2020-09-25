@@ -10,7 +10,6 @@ echo "Creating data to check against"
 ./library import --documents official,community --tags ocp,arch_x86_64 --dir _output/operator/ocp-x86_64 --match-all-tags
 ./library import --documents official,community --tags ocp,arch_ppc64le --dir _output/operator/ocp-ppc64le --match-all-tags
 ./library import --documents official,community --tags ocp,arch_s390x --dir _output/operator/ocp-s390x --match-all-tags
-./library import --documents official,community --tags online-starter,arch_x86_64 --dir _output/online/starter/x86_64 --match-all-tags
 ./library import --documents official,community --tags online-professional,arch_x86_64 --dir _output/online/professional/x86_64 --match-all-tags
 ./library import --documents official,community --dir _output
 

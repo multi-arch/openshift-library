@@ -29,7 +29,6 @@ data:
         suffix: rhel
         tags:
           - ocp
-          - online-starter
           - online-professional
           - arch_ppc64le
           - arch_s390x
@@ -49,7 +48,6 @@ data:
         tags:
           - okd
           - ocp
-          - online-starter
           - online-professional
           - arch_ppc64le
           - arch_s390x
@@ -62,7 +60,6 @@ data:
         suffix: rhel
         tags:
           - ocp
-          - online-starter
           - online-professional
           - arch_ppc64le
           - arch_s390x
@@ -84,7 +81,6 @@ data:
         tags:
           - okd
           - ocp
-          - online-starter
           - online-professional
           - arch_ppc64le
           - arch_s390x
@@ -114,7 +110,6 @@ data:
         tags:
           - okd
           - ocp
-          - online-starter
           - online-professional
           - arch_ppc64le
           - arch_s390x
@@ -126,7 +121,6 @@ data:
         suffix: rhel
         tags:
           - ocp
-          - online-starter
           - online-professional
           - arch_ppc64le
           - arch_s390x
@@ -139,7 +133,6 @@ data:
         suffix: rhel
         tags:
           - ocp
-          - online-starter
           - online-professional
           - arch_ppc64le
           - arch_s390x
@@ -161,7 +154,6 @@ data:
         tags:
           - okd
           - ocp
-          - online-starter
           - online-professional
           - arch_ppc64le
           - arch_s390x
@@ -174,7 +166,6 @@ data:
         suffix: rhel
         tags:
           - ocp
-          - online-starter
           - online-professional
           - arch_ppc64le
           - arch_s390x
@@ -196,7 +187,6 @@ data:
         tags:
           - okd
           - ocp
-          - online-starter
           - online-professional
           - arch_ppc64le
           - arch_s390x
@@ -216,7 +206,6 @@ data:
         tags:
           - okd
           - ocp
-          - online-starter
           - online-professional
           - arch_ppc64le
           - arch_s390x
@@ -234,7 +223,6 @@ data:
         tags:
           - okd
           - ocp
-          - online-starter
           - online-professional
           - arch_ppc64le
           - arch_s390x
@@ -246,7 +234,6 @@ data:
         suffix: rhel
         tags:
           - ocp
-          - online-starter
           - online-professional
           - arch_ppc64le
           - arch_s390x
@@ -257,7 +244,6 @@ data:
         suffix: rhel
         tags:
           - ocp
-          - online-starter
           - online-professional
           - arch_ppc64le
           - arch_s390x
@@ -268,7 +254,6 @@ data:
         suffix: rhel
         tags:
           - ocp
-          - online-starter
           - online-professional
           - arch_ppc64le
           - arch_s390x
@@ -279,7 +264,6 @@ data:
         suffix: rhel
         tags:
           - ocp
-          - online-starter
           - online-professional
           - arch_ppc64le
           - arch_s390x
@@ -292,7 +276,6 @@ data:
         suffix: rhel
         tags:
           - ocp
-          - online-starter
           - online-professional
           - arch_ppc64le
           - arch_s390x
@@ -303,7 +286,6 @@ data:
         tags:
           - okd
           - ocp
-          - online-starter
           - online-professional
           - arch_ppc64le
           - arch_s390x
@@ -323,7 +305,6 @@ data:
         tags:
           - okd
           - ocp
-          - online-starter
           - online-professional
           - arch_ppc64le
           - arch_s390x
@@ -335,7 +316,6 @@ data:
         suffix: rhel
         tags:
           - ocp
-          - online-starter
           - online-professional
           - arch_ppc64le
           - arch_s390x
@@ -353,7 +333,6 @@ data:
         suffix: rhel7
         tags:
           - ocp
-          - online-starter
           - online-professional
           - arch_ppc64le
           - arch_s390x
@@ -373,7 +352,6 @@ data:
         tags:
           - okd
           - ocp
-          - online-starter
           - online-professional
           - arch_ppc64le
           - arch_s390x
@@ -385,7 +363,6 @@ data:
         suffix: rhel
         tags:
           - ocp
-          - online-starter
           - online-professional
           - arch_ppc64le
           - arch_s390x
@@ -398,7 +375,6 @@ data:
         suffix: rhel
         tags:
           - ocp
-          - online-starter
           - online-professional
           - arch_ppc64le
           - arch_s390x
@@ -409,7 +385,6 @@ data:
         tags:
           - okd
           - ocp
-          - online-starter
           - online-professional
           - arch_ppc64le
           - arch_s390x
@@ -429,7 +404,6 @@ data:
         tags:
           - okd
           - ocp
-          - online-starter
           - online-professional
           - arch_ppc64le
           - arch_s390x
@@ -441,7 +415,6 @@ data:
         suffix: rhel
         tags:
           - ocp
-          - online-starter
           - online-professional
           - arch_ppc64le
           - arch_s390x
@@ -453,7 +426,6 @@ data:
         tags:
           - okd
           - ocp
-          - online-starter
           - online-professional
           - arch_ppc64le
           - arch_s390x
@@ -463,7 +435,6 @@ data:
         tags:
           - okd
           - ocp
-          - online-starter
           - online-professional
           - arch_ppc64le
           - arch_s390x
@@ -475,7 +446,6 @@ data:
         suffix: rhel
         tags:
           - ocp
-          - online-starter
           - online-professional
           - arch_ppc64le
           - arch_s390x
@@ -597,7 +567,6 @@ data:
         docs: https://github.com/jboss-container-images/jboss-decisionserver-6-openshift-image/blob/{ips_ds_version}/templates/docs/decisionserver64-basic-s2i.adoc
         tags:
           - ocp
-          - online-starter
       - location: https://raw.githubusercontent.com/jboss-container-images/jboss-decisionserver-6-openshift-image/{ips_ds_version}/templates/decisionserver64-https-s2i.json
         docs: https://github.com/jboss-container-images/jboss-decisionserver-6-openshift-image/blob/{ips_ds_version}/templates/docs/decisionserver64-https-s2i.adoc
     imagestreams:
@@ -607,7 +576,6 @@ data:
         suffix: rhel7
         tags:
           - ocp
-          - online-starter
           - online-professional
   eap-cd:
     templates:
@@ -619,14 +587,12 @@ data:
       - location: https://raw.githubusercontent.com/jboss-container-images/jboss-eap-7-openshift-image/eap-cd/templates/eap-cd-starter-s2i.json
         tags:
           - ocp
-          - online-starter
     imagestreams:
       - location: https://raw.githubusercontent.com/jboss-container-images/jboss-eap-7-openshift-image/eap-cd/templates/eap-cd-image-stream.json
         docs: https://access.redhat.com/documentation/en-us/jboss_enterprise_application_platform_continuous_delivery/
         regex: eap-cd
         suffix: rhel8
         tags:
-          - online-starter
           - ocp
           - online-professional
   eap:
@@ -732,7 +698,6 @@ data:
         docs: https://access.redhat.com/documentation/en-us/red_hat_jboss_middleware_for_openshift/3/paged/red_hat_java_s2i_for_openshift/
         tags:
           - ocp
-          - online-starter
           - online-professional
           - arch_ppc64le
           - arch_s390x
@@ -743,7 +708,6 @@ data:
         suffix: rhel-x86_64
         tags:
           - ocp
-          - online-starter
           - online-professional
       - location: https://raw.githubusercontent.com/jboss-container-images/openjdk/{openjdk_version}/templates/image-streams-ppc64le.json
         docs: https://access.redhat.com/documentation/en-us/red_hat_jboss_middleware_for_openshift/3/paged/red_hat_java_s2i_for_openshift/
@@ -783,7 +747,6 @@ data:
         docs: https://github.com/jboss-container-images/jboss-processserver-6-openshift-image/blob/{ips_ds_version}/templates/docs/processserver64-basic-s2i.adoc
         tags:
           - ocp
-          - online-starter
           - online-professional
       - location: https://raw.githubusercontent.com/jboss-container-images/jboss-processserver-6-openshift-image/{ips_ds_version}/templates/processserver64-mysql-persistent-s2i.json
         docs: https://github.com/jboss-container-images/jboss-processserver-6-openshift-image/blob/{ips_ds_version}/templates/docs/processserver64-mysql-persistent-s2i.adoc
@@ -815,7 +778,6 @@ data:
         suffix: rhel7
         tags:
           - ocp
-          - online-starter
           - online-professional
   rhdm:
     templates:
@@ -833,7 +795,6 @@ data:
         docs: https://github.com/jboss-container-images/rhdm-7-openshift-image/blob/{rhdm_version}/templates/docs/rhdm78-kieserver.adoc
         tags:
           - ocp
-          - online-starter
           - online-professional
       - location: https://raw.githubusercontent.com/jboss-container-images/rhdm-7-openshift-image/{rhdm_version}/templates/rhdm78-prod-immutable-kieserver-amq.yaml
         docs: https://github.com/jboss-container-images/rhdm-7-openshift-image/blob/{rhdm_version}/templates/docs/rhdm78-prod-immutable-kieserver-amq.adoc
@@ -862,7 +823,6 @@ data:
         regex: rhdm-kieserver-rhel8
         tags:
           - ocp
-          - online-starter
           - online-professional
   rhpam:
     templates:
@@ -981,7 +941,6 @@ data:
         docs: https://github.com/jboss-container-images/redhat-sso-7-openshift-image/blob/{rhsso73_zstream_version}/docs/templates/sso73-ocp4-x509-https.adoc
         tags:
           - ocp
-          - online-starter
           - online-professional
       - location: https://raw.githubusercontent.com/jboss-container-images/redhat-sso-7-openshift-image/{rhsso73_zstream_version}/templates/sso73-ocp4-x509-mysql-persistent.json
         docs: https://github.com/jboss-container-images/redhat-sso-7-openshift-image/blob/{rhsso73_zstream_version}/docs/templates/sso73-ocp4-x509-mysql-persistent.adoc
@@ -1060,14 +1019,12 @@ data:
         docs: https://access.redhat.com/documentation/en-us/red_hat_single_sign-on/7.2/html-single/red_hat_single_sign-on_for_openshift/
         tags:
           - ocp
-          - online-starter
           - online-professional
         suffix: rhel7
       # List imagestream for RH-SSO 7.3 Technology Preview Continuous Delivery (CD) images stream below
       - location: https://raw.githubusercontent.com/jboss-container-images/redhat-sso-7-openshift-image/{rhsso_tpcd_version}/templates/sso-cd-image-stream.json
         docs: https://access.redhat.com/documentation/en-us/red_hat_single_sign-on_continuous_delivery
         tags:
-          - online-starter
           - online-professional
         suffix: rhel7
       # List imagestream for RH-SSO 7.3 stable / zstream images stream below
@@ -1075,7 +1032,6 @@ data:
         docs: https://access.redhat.com/documentation/en-us/red_hat_single_sign-on/7.3/html-single/red_hat_single_sign-on_for_openshift/
         tags:
           - ocp
-          - online-starter
           - online-professional
         suffix: rhel7
       # List imagestream for RH-SSO 7.4.x on OpenJDK stable / zstream images stream below
@@ -1100,7 +1056,6 @@ data:
         docs: https://github.com/jboss-openshift/application-templates/blob/{webserver_version}/docs/webserver/jws31-tomcat7-https-s2i.adoc
         tags:
           - ocp
-          - online-starter
           - online-professional
       - location: https://raw.githubusercontent.com/jboss-container-images/jboss-webserver-3-openshift-image/{webserver3_version}/templates/jws31-tomcat7-mongodb-persistent-s2i.json
         docs: https://github.com/jboss-openshift/application-templates/blob/{webserver_version}/docs/webserver/jws31-tomcat7-mongodb-persistent-s2i.adoc
@@ -1130,7 +1085,6 @@ data:
         docs: https://github.com/jboss-openshift/application-templates/blob/{webserver_version}/docs/webserver/jws31-tomcat8-https-s2i.adoc
         tags:
           - ocp
-          - online-starter
           - online-professional
       - location: https://raw.githubusercontent.com/jboss-container-images/jboss-webserver-3-openshift-image/{webserver3_version}/templates/jws31-tomcat8-mongodb-persistent-s2i.json
         docs: https://github.com/jboss-openshift/application-templates/blob/{webserver_version}/docs/webserver/jws31-tomcat8-mongodb-persistent-s2i.adoc
@@ -1140,7 +1094,6 @@ data:
         docs: https://github.com/jboss-openshift/application-templates/blob/{webserver_version}/docs/webserver/jws31-tomcat8-mysql-persistent-s2i.adoc
         tags:
           - ocp
-          - online-starter
           - online-professional
       - location: https://raw.githubusercontent.com/jboss-container-images/jboss-webserver-3-openshift-image/{webserver3_version}/templates/jws31-tomcat8-mysql-s2i.json
         docs: https://github.com/jboss-openshift/application-templates/blob/{webserver_version}/docs/webserver/jws31-tomcat8-mysql-s2i.adoc
@@ -1150,7 +1103,6 @@ data:
         docs: https://github.com/jboss-openshift/application-templates/blob/{webserver_version}/docs/webserver/jws31-tomcat8-postgresql-persistent-s2i.adoc
         tags:
           - ocp
-          - online-starter
           - online-professional
       - location: https://raw.githubusercontent.com/jboss-container-images/jboss-webserver-3-openshift-image/{webserver3_version}/templates/jws31-tomcat8-postgresql-s2i.json
         docs: https://github.com/jboss-openshift/application-templates/blob/{webserver_version}/docs/webserver/jws31-tomcat8-postgresql-s2i.adoc
@@ -1160,14 +1112,12 @@ data:
       - location: https://raw.githubusercontent.com/jboss-container-images/jboss-webserver-5-openshift-image/{webserver5_version}/templates/jws53-openjdk8-tomcat9-https-s2i.json
         tags:
           - ocp
-          - online-starter
           - online-professional
       - location: https://raw.githubusercontent.com/jboss-container-images/jboss-webserver-5-openshift-image/{webserver5_version}/templates/jws53-openjdk8-tomcat9-mongodb-persistent-s2i.json
       - location: https://raw.githubusercontent.com/jboss-container-images/jboss-webserver-5-openshift-image/{webserver5_version}/templates/jws53-openjdk8-tomcat9-mongodb-s2i.json
       - location: https://raw.githubusercontent.com/jboss-container-images/jboss-webserver-5-openshift-image/{webserver5_version}/templates/jws53-openjdk8-tomcat9-mysql-persistent-s2i.json
         tags:
           - ocp
-          - online-starter
           - online-professional
       - location: https://raw.githubusercontent.com/jboss-container-images/jboss-webserver-5-openshift-image/{webserver5_version}/templates/jws53-openjdk8-tomcat9-mysql-s2i.json
         tags:
@@ -1175,7 +1125,6 @@ data:
       - location: https://raw.githubusercontent.com/jboss-container-images/jboss-webserver-5-openshift-image/{webserver5_version}/templates/jws53-openjdk8-tomcat9-postgresql-persistent-s2i.json
         tags:
           - ocp
-          - online-starter
           - online-professional
       - location: https://raw.githubusercontent.com/jboss-container-images/jboss-webserver-5-openshift-image/{webserver5_version}/templates/jws53-openjdk8-tomcat9-postgresql-s2i.json
       - location: https://raw.githubusercontent.com/jboss-container-images/jboss-webserver-5-openshift-image/{webserver5_version}/templates/jws53-openjdk11-tomcat9-basic-s2i.json
@@ -1184,14 +1133,12 @@ data:
       - location: https://raw.githubusercontent.com/jboss-container-images/jboss-webserver-5-openshift-image/{webserver5_version}/templates/jws53-openjdk11-tomcat9-https-s2i.json
         tags:
           - ocp
-          - online-starter
           - online-professional
       - location: https://raw.githubusercontent.com/jboss-container-images/jboss-webserver-5-openshift-image/{webserver5_version}/templates/jws53-openjdk11-tomcat9-mongodb-persistent-s2i.json
       - location: https://raw.githubusercontent.com/jboss-container-images/jboss-webserver-5-openshift-image/{webserver5_version}/templates/jws53-openjdk11-tomcat9-mongodb-s2i.json
       - location: https://raw.githubusercontent.com/jboss-container-images/jboss-webserver-5-openshift-image/{webserver5_version}/templates/jws53-openjdk11-tomcat9-mysql-persistent-s2i.json
         tags:
           - ocp
-          - online-starter
           - online-professional
       - location: https://raw.githubusercontent.com/jboss-container-images/jboss-webserver-5-openshift-image/{webserver5_version}/templates/jws53-openjdk11-tomcat9-mysql-s2i.json
         tags:
@@ -1199,7 +1146,6 @@ data:
       - location: https://raw.githubusercontent.com/jboss-container-images/jboss-webserver-5-openshift-image/{webserver5_version}/templates/jws53-openjdk11-tomcat9-postgresql-persistent-s2i.json
         tags:
           - ocp
-          - online-starter
           - online-professional
       - location: https://raw.githubusercontent.com/jboss-container-images/jboss-webserver-5-openshift-image/{webserver5_version}/templates/jws53-openjdk11-tomcat9-postgresql-s2i.json
       - location: https://raw.githubusercontent.com/jboss-container-images/jboss-webserver-5-openshift-image/{webserver5_openj9_version}/templates/jws53-openj9-tomcat9-rhel7-basic-s2i.json
@@ -1233,26 +1179,22 @@ data:
         suffix: rhel7
         tags:
           - ocp
-          - online-starter
           - online-professional
       - location: https://raw.githubusercontent.com/jboss-container-images/jboss-webserver-3-openshift-image/{webserver3_version}/templates/jws31-tomcat8-image-stream.json
         docs: https://access.redhat.com/documentation/en/red-hat-jboss-middleware-for-openshift/3/paged/red-hat-jboss-web-server-for-openshift/
         suffix: rhel7
         tags:
           - ocp
-          - online-starter
           - online-professional
       - location: https://raw.githubusercontent.com/jboss-container-images/jboss-webserver-5-openshift-image/{webserver5_version}/templates/jws53-openjdk8-tomcat9-image-stream.json
         suffix: rhel7
         tags:
           - ocp
-          - online-starter
           - online-professional
       - location: https://raw.githubusercontent.com/jboss-container-images/jboss-webserver-5-openshift-image/{webserver5_version}/templates/jws53-openjdk11-tomcat9-image-stream.json
         suffix: rhel7
         tags:
           - ocp
-          - online-starter
           - online-professional
       - location: https://raw.githubusercontent.com/jboss-container-images/jboss-webserver-5-openshift-image/{webserver5_openj9_version}/templates/jws53-openj9-tomcat9-rhel7-image-stream.json
 #        suffix: rhel7
@@ -1265,31 +1207,26 @@ data:
         docs: https://access.redhat.com/documentation/en-us/red_hat_fuse/{fuse_version}/html/fuse_on_openshift_guide/
         tags:
           - ocp
-          - online-starter
           - online-professional
       - location: https://raw.githubusercontent.com/jboss-fuse/application-templates/GA/quickstarts/spring-boot-camel-xml-template.json
         docs: https://access.redhat.com/documentation/en-us/red_hat_fuse/{fuse_version}/html/fuse_on_openshift_guide/
         tags:
           - ocp
-          - online-starter
           - online-professional
       - location: https://raw.githubusercontent.com/jboss-fuse/application-templates/GA/quickstarts/spring-boot-camel-rest-3scale-template.json
         docs: https://access.redhat.com/documentation/en-us/red_hat_fuse/{fuse_version}/html/fuse_on_openshift_guide/
         tags:
           - ocp
-          - online-starter
           - online-professional
       - location: https://raw.githubusercontent.com/jboss-fuse/application-templates/GA/fis-console-namespace-template.json
         docs: https://access.redhat.com/documentation/en-us/red_hat_fuse/{fuse_version}/html/managing_fuse/
         tags:
           - ocp
-          - online-starter
           - online-professional
       - location: https://raw.githubusercontent.com/jboss-fuse/application-templates/GA/fuse-apicurito.yml
         docs: https://access.redhat.com/documentation/en-us/red_hat_fuse/{fuse_version}/html/designing_apis_with_apicurito/
         tags:
           - ocp
-          - online-starter
           - online-professional
     imagestreams:
       - location: https://raw.githubusercontent.com/jboss-fuse/application-templates/GA/fis-image-streams.json
@@ -1297,7 +1234,6 @@ data:
         suffix: rhel7
         tags:
           - ocp
-          - online-starter
           - online-professional
   dotnet:
     imagestreams:
@@ -1306,7 +1242,6 @@ data:
         suffix: rhel
         tags:
           - ocp
-          - online-starter
           - online-professional
   3scale:
     templates:
@@ -1314,14 +1249,12 @@ data:
         docs: https://access.redhat.com/documentation/en-us/red_hat_3scale/2.saas/html/deployment_options/apicast-openshift
         tags:
           - ocp
-          - online-starter
           - online-professional
     imagestreams:
       - location: https://raw.githubusercontent.com/3scale/3scale-amp-openshift-templates/{rhamp_version}/3scale-image-streams.yml
         docs: https://access.redhat.com/documentation/en-us/red_hat_3scale/2.saas/html/deployment_options/apicast-openshift
         tags:
           - ocp
-          - online-starter
           - online-professional
   golang:
     imagestreams:
@@ -1331,7 +1264,6 @@ data:
         suffix: rhel
         tags:
           - ocp
-          - online-starter
           - online-professional
           - arch_ppc64le
           - arch_s390x
